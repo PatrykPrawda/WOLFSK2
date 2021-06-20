@@ -1,0 +1,15 @@
+name: WolfSk2
+description: Addon for Skript
+version: 2.0_4d
+website: https://wolfsk2.outr-studio.pl/
+main: pl.gempxplay.wolfsk2.WolfSk2
+depend: [Skript]
+authors:
+    - GempXPlay
+
+commands:
+    wolfsk:
+        description: use '/wolfsk' for help
+        aliases: [wsk, wolfskript]
+        permission: wolfsk.*
+        usage: /wolfsk
