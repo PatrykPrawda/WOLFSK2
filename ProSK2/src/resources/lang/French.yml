@@ -1,0 +1,31 @@
+# 17.09.2021 by Sniper_TVmc
+lang_name: French
+lang_version: 1.2
+lang_author: Sniper_TVmc
+
+plugin_starting: Démarrage...
+plugin_disabling: Désactivation...
+plugin_disabled: Désactivé.
+plugin_language: Langue
+
+updater_cant_connect: Impossible de se connecter au serveur
+updater_latest_version: Ceci est la dernière version.
+updater_update_line0: Une nouvelle version est disponible, vous pouvez la télécharger sur
+updater_update_line1: https://www.spigotmc.org/resources/wolfsk-2.93426/
+updater_update_line2: Version utilisé
+updater_update_line3: Dernière version
+updater_prerealese_build_line1: Detected pre-realese build
+updater_prerealese_build_line2: Enabled all beta functions
+updater_error: Something went wrong!
+
+registering_elements: Enregistrement d'éléments complémentaires...
+collections_registred_bossbar: Éléments des barres de bosses enregistrés.
+collections_registred_actionbar: Éléments des barre d'actions enregistrés.
+collections_registred_loader: Éléments des chargeurs enregistrés.
+collections_registred_hologram: Hologram elements registred.
+objects_registred_inventory: Éléments des inventaires enregistrés.
+all_registred_correctly: Tous les éléments ont été enregistrés correctement.
+
+error: Error
+
+file_cant_create: Can't create file

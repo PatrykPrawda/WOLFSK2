@@ -1,0 +1,31 @@
+# 17.09.2021 by Patryk Prawda (AJONX)
+lang_name: Polish
+lang_version: 1.2
+lang_author: Patryk Prawda (AJONX)
+
+plugin_starting: Uruchamianie...
+plugin_disabling: Wyłączanie...
+plugin_disabled: Wyłączono.
+plugin_language: Język
+
+updater_cant_connect: Nie można się połączyć z serwerem
+updater_latest_version: To jest najnowsza wersja.
+updater_update_line0: Nowa wersja jest dostępna, możesz ją pobrać z
+updater_update_line1: https://www.spigotmc.org/resources/wolfsk-2.93426/
+updater_update_line2: Używana wersja
+updater_update_line3: Najnowsza wersja
+updater_prerealese_build_line1: Wykryto wersję przedpremierową
+updater_prerealese_build_line2: Włączono wszystkie funkcje beta
+updater_error: Coś poszło nie tak!
+
+registering_elements: Rejestrowanie elementów dodatku...
+collections_registred_bossbar: Zarejestrowano elementy boss barów.
+collections_registred_actionbar: Zarejestrowano elementy action barów.
+collections_registred_loader: Zarejestrowano elementy loadera.
+collections_registred_hologram: Zarejestrowano elementy hologramów.
+objects_registred_inventory: Zarejestrowano elementy ekwipunku.
+all_registred_correctly: Wszystkie elementy zarejestrowano poprawnie.
+
+error: Błąd
+
+file_cant_create: Nie można utworzyć pliku

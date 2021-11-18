@@ -1,0 +1,31 @@
+# 17.09.2021 by Patryk Prawda (AJONX)
+lang_name: English
+lang_version: 1.2
+lang_author: Patryk Prawda (AJONX)
+
+plugin_starting: Starting...
+plugin_disabling: Disabling...
+plugin_disabled: Disabled.
+plugin_language: Language
+
+updater_cant_connect: Cant connect to server
+updater_latest_version: This is latest version.
+updater_update_line0: New version is available You can download from
+updater_update_line1: https://www.spigotmc.org/resources/wolfsk-2.93426/
+updater_update_line2: Used version
+updater_update_line3: Latest version
+updater_prerealese_build_line1: Detected pre-realese build
+updater_prerealese_build_line2: Enabled all beta functions
+updater_error: Something went wrong!
+
+registering_elements: Registering addon elements...
+collections_registred_bossbar: Bossbar elements regstred.
+collections_registred_actionbar: Actionbar elements regstred.
+collections_registred_loader: Loader elements registred.
+collections_registred_hologram: Hologram elements registred.
+objects_registred_inventory: Inventory elements regstred.
+all_registred_correctly: All elements registred correctly.
+
+error: Error
+
+file_cant_create: Can't create file
