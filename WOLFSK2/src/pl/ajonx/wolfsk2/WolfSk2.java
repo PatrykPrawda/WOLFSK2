@@ -20,7 +20,7 @@ public class WolfSk2 extends JavaPlugin {
 	public static WolfSk2 plugin;
 	
 	// PREFIX
-	public static String tag = "&f[ &7Pro&9&lSK2 &f] ";
+	public static String tag = "&f[ &WOLF&9&lSK2 &f] ";
 	
 	// BETA
 	public static boolean beta = false;
