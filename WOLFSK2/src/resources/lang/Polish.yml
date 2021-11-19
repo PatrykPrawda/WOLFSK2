@@ -1,6 +1,6 @@
-# 17.09.2021 by Patryk Prawda (AJONX)
+# 19.11.2021 by Patryk Prawda (AJONX)
 lang_name: Polish
-lang_version: 1.2
+lang_version: 1.3
 lang_author: Patryk Prawda (AJONX)
 
 plugin_starting: Uruchamianie...
@@ -23,6 +23,7 @@ collections_registred_bossbar: Zarejestrowano elementy boss barów.
 collections_registred_actionbar: Zarejestrowano elementy action barów.
 collections_registred_loader: Zarejestrowano elementy loadera.
 collections_registred_hologram: Zarejestrowano elementy hologramów.
+collections_registred_yaml: Zarejestrowano elementy plików YAML.
 objects_registred_inventory: Zarejestrowano elementy ekwipunku.
 all_registred_correctly: Wszystkie elementy zarejestrowano poprawnie.
 

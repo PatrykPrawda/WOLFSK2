@@ -1,6 +1,6 @@
-# 17.09.2021 by Sniper_TVmc
+# 19.11.2021 by Sniper_TVmc
 lang_name: French
-lang_version: 1.2
+lang_version: 1.3
 lang_author: Sniper_TVmc
 
 plugin_starting: Démarrage...
@@ -23,6 +23,7 @@ collections_registred_bossbar: Éléments des barres de bosses enregistrés.
 collections_registred_actionbar: Éléments des barre d'actions enregistrés.
 collections_registred_loader: Éléments des chargeurs enregistrés.
 collections_registred_hologram: Hologram elements registred.
+collections_registred_yaml: YAML files elements registred.
 objects_registred_inventory: Éléments des inventaires enregistrés.
 all_registred_correctly: Tous les éléments ont été enregistrés correctement.
 
