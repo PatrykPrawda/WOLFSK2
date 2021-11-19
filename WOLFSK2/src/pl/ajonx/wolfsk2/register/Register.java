@@ -7,7 +7,7 @@ import pl.ajonx.wolfsk2.elements.BossHealthBarElements;
 import pl.ajonx.wolfsk2.elements.GuiElements;
 import pl.ajonx.wolfsk2.elements.HologramElements;
 import pl.ajonx.wolfsk2.elements.LoaderElements;
-import pl.ajonx.wolfsk2.elements.YmlElements;
+import pl.ajonx.wolfsk2.elements.YamlElements;
 import pl.ajonx.wolfsk2.objects.inventory.InventoryElements;
 
 public class Register {
@@ -24,8 +24,8 @@ public class Register {
         WolfSk2Log.sendLog("&f[ &aOK &f] " + WolfSk2.language.getString("collections_registred_loader"));
         HologramElements.RegisterHologramEffects();
         WolfSk2Log.sendLog("&f[ &aOK &f] " + WolfSk2.language.getString("collections_registred_hologram"));
-        YmlElements.RegisterYmlEffects();
-        WolfSk2Log.sendLog("&f[ &aOK &f] " + WolfSk2.language.getString("collections_registred_yml"));
+        YamlElements.RegisterYamlEffects();
+        WolfSk2Log.sendLog("&f[ &aOK &f] " + WolfSk2.language.getString("collections_registred_yaml"));
         if(WolfSk2.beta) {
 	        GuiElements.RegisterGuiEffects();
 	        WolfSk2Log.sendLog("&f[ &aOK &f] Gui elements registred (TEST).");

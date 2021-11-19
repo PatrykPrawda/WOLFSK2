@@ -8,21 +8,20 @@ import ch.njol.skript.lang.SkriptParser;
 import ch.njol.util.Kleenean;
 import pl.ajonx.wolfsk2.effects.Yaml;
 
-public class Set extends Effect {
+public class GetValue extends Effect {
 	
     private Expression<String> name;
-    private Expression<String> value;
     private Expression<String> file;
     
     protected void execute(Event event) {
-    	Yaml.setYaml(this.name.getSingle(event), this.value.getSingle(event), this.file.getSingle(event));
+    	if(this.name.getSingle(event) != null && this.file.getSingle(event) != null)
+    		Yaml.removeYaml(this.name.getSingle(event), this.file.getSingle(event));
     }
 	
     @SuppressWarnings("unchecked")
 	public boolean init(Expression<?>[] expressions, int i, Kleenean kleenean, SkriptParser.ParseResult parseResult) {
         this.name = (Expression<String>) expressions[0];
-        this.value = (Expression<String>) expressions[1];
-        this.file = (Expression<String>) expressions[2];
+        this.file = (Expression<String>) expressions[1];
         return true;
     }
     

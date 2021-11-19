@@ -6,7 +6,7 @@ import java.net.URL;
 import java.net.URLConnection;
 import java.util.concurrent.TimeoutException;
 
-import pl.ajonx.wolfsk2.WolfSk2Log;
+//import pl.ajonx.wolfsk2.WolfSk2Log;
 
 public class IOUtils {
 
