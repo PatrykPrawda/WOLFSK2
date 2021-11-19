@@ -1,4 +1,4 @@
-package pl.ajonx.wolfsk2.effects.yml;
+package pl.ajonx.wolfsk2.effects.yaml;
 
 import org.bukkit.event.Event;
 
@@ -6,7 +6,7 @@ import ch.njol.skript.lang.Effect;
 import ch.njol.skript.lang.Expression;
 import ch.njol.skript.lang.SkriptParser;
 import ch.njol.util.Kleenean;
-import pl.ajonx.wolfsk2.effects.Yml;
+import pl.ajonx.wolfsk2.effects.Yaml;
 
 public class Set extends Effect {
 	
@@ -15,7 +15,7 @@ public class Set extends Effect {
     private Expression<String> file;
     
     protected void execute(Event event) {
-    	Yml.setYml(this.name.getSingle(event), this.value.getSingle(event), this.file.getSingle(event));
+    	Yaml.setYaml(this.name.getSingle(event), this.value.getSingle(event), this.file.getSingle(event));
     }
 	
     @SuppressWarnings("unchecked")

@@ -1,2 +1,4 @@
 # English # Polish # French #
 language: English
+# HOLOGRAMS #
+max-holograms: 20

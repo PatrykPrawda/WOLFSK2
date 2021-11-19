@@ -2,8 +2,8 @@ package pl.ajonx.wolfsk2.elements;
 
 import pl.ajonx.wolfsk2.documentation.Element;
 import pl.ajonx.wolfsk2.documentation.Type;
-import pl.ajonx.wolfsk2.effects.yml.Create;
-import pl.ajonx.wolfsk2.effects.yml.Set;
+import pl.ajonx.wolfsk2.effects.yaml.Create;
+import pl.ajonx.wolfsk2.effects.yaml.Set;
 import pl.ajonx.wolfsk2.register.RegisterManager;
 
 public class YmlElements {

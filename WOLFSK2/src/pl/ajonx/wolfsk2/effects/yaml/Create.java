@@ -1,8 +1,8 @@
-package pl.ajonx.wolfsk2.effects.yml;
+package pl.ajonx.wolfsk2.effects.yaml;
 
 import org.bukkit.event.Event;
 
-import pl.ajonx.wolfsk2.effects.Yml;
+import pl.ajonx.wolfsk2.effects.Yaml;
 
 import ch.njol.skript.lang.Effect;
 import ch.njol.skript.lang.Expression;
@@ -14,7 +14,7 @@ public class Create extends Effect {
     private Expression<String> file;
     
     protected void execute(Event event) {
-    	Yml.createYml(this.file.getSingle(event));
+    	Yaml.createYaml(this.file.getSingle(event));
     }
 	
     @SuppressWarnings("unchecked")
