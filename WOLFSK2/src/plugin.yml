@@ -1,8 +1,8 @@
 name: WolfSK2
 description: Addon for Skript
-version: 2.13.7.4
+version: 2.13.8
 website: https://fmp.xaa.pl/ftp_server/EVOX_Interactive/WolfSk2/
-main: pl.ajonx.wolfsk2.WolfSk2
+main: pl.oneguardstudio.wolfsk2.WolfSk2
 depend: [Skript]
 authors:
     - GempXPlay
