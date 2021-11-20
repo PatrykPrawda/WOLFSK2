@@ -14,19 +14,19 @@ updater_update_line0: Une nouvelle version est disponible, vous pouvez la télé
 updater_update_line1: https://www.spigotmc.org/resources/wolfsk-2.93426/
 updater_update_line2: Version utilisé
 updater_update_line3: Dernière version
-updater_prerealese_build_line1: Detected pre-realese build
-updater_prerealese_build_line2: Enabled all beta functions
-updater_error: Something went wrong!
+updater_prerealese_build_line1: Build de pré-version détecté
+updater_prerealese_build_line2: Activation de toutes les fonctions bêta
+updater_error: Quelque chose s'est mal passé !
 
 registering_elements: Enregistrement d'éléments complémentaires...
 collections_registred_bossbar: Éléments des barres de bosses enregistrés.
 collections_registred_actionbar: Éléments des barre d'actions enregistrés.
 collections_registred_loader: Éléments des chargeurs enregistrés.
-collections_registred_hologram: Hologram elements registred.
-collections_registred_yaml: YAML files elements registred.
+collections_registred_hologram: Éléments des hologrammes enregistrés.
+collections_registred_yaml: Éléments des fichiers YAML enregistrés.
 objects_registred_inventory: Éléments des inventaires enregistrés.
 all_registred_correctly: Tous les éléments ont été enregistrés correctement.
 
-error: Error
+error: Erreur
 
-file_cant_create: Can't create file
+file_cant_create: Impossible de créer le fichier
