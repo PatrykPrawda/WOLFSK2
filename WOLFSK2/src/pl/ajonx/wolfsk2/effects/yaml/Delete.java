@@ -2,11 +2,12 @@ package pl.ajonx.wolfsk2.effects.yaml;
 
 import org.bukkit.event.Event;
 
+import pl.oneguardstudio.wolfapi.yaml.Yaml;
+
 import ch.njol.skript.lang.Effect;
 import ch.njol.skript.lang.Expression;
 import ch.njol.skript.lang.SkriptParser;
 import ch.njol.util.Kleenean;
-import pl.ajonx.wolfsk2.effects.Yaml;
 
 public class Delete extends Effect {
 	
@@ -14,7 +15,7 @@ public class Delete extends Effect {
     
     protected void execute(Event event) {
     	if(this.file.getSingle(event) != null)
-    		Yaml.deleteYaml(this.file.getSingle(event));
+    		Yaml.DeleteYamlFile(this.file.getSingle(event));
     }
 	
     @SuppressWarnings("unchecked")

@@ -2,11 +2,12 @@ package pl.ajonx.wolfsk2.effects.yaml;
 
 import org.bukkit.event.Event;
 
+import pl.oneguardstudio.wolfapi.yaml.Yaml;
+
 import ch.njol.skript.lang.Effect;
 import ch.njol.skript.lang.Expression;
 import ch.njol.skript.lang.SkriptParser;
 import ch.njol.util.Kleenean;
-import pl.ajonx.wolfsk2.effects.Yaml;
 
 public class RemoveValue extends Effect {
 	
@@ -15,7 +16,7 @@ public class RemoveValue extends Effect {
     
     protected void execute(Event event) {
     	if(this.name.getSingle(event) != null && this.file.getSingle(event) != null)
-    		Yaml.removeYaml(this.name.getSingle(event), this.file.getSingle(event));
+    		Yaml.RemoveYamlValue(this.name.getSingle(event), this.file.getSingle(event));
     }
 	
     @SuppressWarnings("unchecked")

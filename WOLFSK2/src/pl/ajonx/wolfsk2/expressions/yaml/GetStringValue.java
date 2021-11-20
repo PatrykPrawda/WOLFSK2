@@ -1,11 +1,12 @@
 package pl.ajonx.wolfsk2.expressions.yaml;
 
+import pl.oneguardstudio.wolfapi.yaml.Yaml;
+
 import ch.njol.skript.doc.NoDoc;
 import ch.njol.skript.lang.Expression;
 import ch.njol.skript.lang.SkriptParser;
 import ch.njol.skript.lang.util.SimpleExpression;
 import ch.njol.util.Kleenean;
-import pl.ajonx.wolfsk2.effects.Yaml;
 
 import org.bukkit.event.Event;
 
@@ -17,7 +18,7 @@ public class GetStringValue extends SimpleExpression<String> {
 
     protected String[] get(Event event) {
     	if(this.name.getSingle(event) != null && this.file.getSingle(event) != null)
-    		return new String[]{ Yaml.getYamlString(this.name.getSingle(event), this.file.getSingle(event)) };
+    		return new String[]{ Yaml.GetYamlStringValue(this.name.getSingle(event), this.file.getSingle(event)) };
     	else
     		return new String[] { "null" };
     }

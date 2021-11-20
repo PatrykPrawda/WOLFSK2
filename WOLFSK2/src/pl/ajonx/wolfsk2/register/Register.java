@@ -24,8 +24,12 @@ public class Register {
         WolfSk2Log.sendLog("&f[ &aOK &f] " + WolfSk2.language.getString("collections_registred_loader"));
         HologramElements.RegisterHologramEffects();
         WolfSk2Log.sendLog("&f[ &aOK &f] " + WolfSk2.language.getString("collections_registred_hologram"));
-        YamlElements.RegisterYamlEffects();
-        WolfSk2Log.sendLog("&f[ &aOK &f] " + WolfSk2.language.getString("collections_registred_yaml"));
+        if(WolfSk2.WolfAPI) {
+	        YamlElements.RegisterYamlEffects();
+	        WolfSk2Log.sendLog("&f[ &aOK &f] " + WolfSk2.language.getString("collections_registred_yaml"));
+        } else {
+	        WolfSk2Log.sendLog("&f[ &cSKIPPED &f] " + "&7&oWolfAPI plugin not found.");
+        }
         if(WolfSk2.beta) {
 	        GuiElements.RegisterGuiEffects();
 	        WolfSk2Log.sendLog("&f[ &aOK &f] Gui elements registred (TEST).");

@@ -4,11 +4,13 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
+import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.configuration.InvalidConfigurationException;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
+import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import ch.njol.skript.Skript;
@@ -19,8 +21,10 @@ public class WolfSk2 extends JavaPlugin {
 	
 	public static WolfSk2 plugin;
 	
+	public static boolean WolfAPI = false;
+	
 	// PREFIX
-	public static String tag = "&f[ &WOLF&9&lSK2 &f] ";
+	public static String tag = "&f[ &7WOLF&9&lSK2 &f] ";
 	
 	// BETA
 	public static boolean beta = false;
@@ -99,7 +103,14 @@ public class WolfSk2 extends JavaPlugin {
 	@Override
 	public void onEnable() {
 		WolfSk2Update.IsUpdateAvailable();
-        Skript.registerAddon(this);
+        for (Plugin p : Bukkit.getPluginManager().getPlugins()) {
+            if (p.getName().toLowerCase().equalsIgnoreCase("skript")) {
+                Skript.registerAddon(this);
+            }
+            if (p.getName().toLowerCase().equalsIgnoreCase("wolfapi")) {
+                WolfAPI = true;
+            }
+        }
         Register.register();
         getServer().getPluginManager().registerEvents(new Events(), this);
         Hologram.removeAllHolograms();
@@ -110,7 +121,6 @@ public class WolfSk2 extends JavaPlugin {
 	public void onDisable() {
 		WolfSk2Log.sendLog(tag + "&c" + language.getString("plugin_disabling"));
 		WolfSk2Log.sendLog(tag + "&c" + language.getString("plugin_disabled"));
-		super.onDisable();
 	}
 	
 	@Override

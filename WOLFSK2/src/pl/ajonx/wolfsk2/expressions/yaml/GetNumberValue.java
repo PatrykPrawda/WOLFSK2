@@ -2,11 +2,12 @@ package pl.ajonx.wolfsk2.expressions.yaml;
 
 import org.bukkit.event.Event;
 
+import pl.oneguardstudio.wolfapi.yaml.Yaml;
+
 import ch.njol.skript.lang.Expression;
 import ch.njol.skript.lang.SkriptParser;
 import ch.njol.skript.lang.util.SimpleExpression;
 import ch.njol.util.Kleenean;
-import pl.ajonx.wolfsk2.effects.Yaml;
 
 public class GetNumberValue extends SimpleExpression<Number> {
 	
@@ -15,7 +16,7 @@ public class GetNumberValue extends SimpleExpression<Number> {
 
     protected Number[] get(Event event) {
     	if(this.name.getSingle(event) != null && this.file.getSingle(event) != null)
-    		return new Number[]{ Yaml.getYamlNumber(this.name.getSingle(event), this.file.getSingle(event)) };
+    		return new Number[]{ Yaml.GetYamlIntValue(this.name.getSingle(event), this.file.getSingle(event)) };
     	else
     		return new Number[] { null };
     }
