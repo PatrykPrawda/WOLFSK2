@@ -1,0 +1,33 @@
+# 20.11.2021 by Sirawich Nonnoi (u7sicx.z)
+lang_name: Thai
+lang_version: 1.3
+lang_author: Sirawich Nonnoi (u7sicx.z)
+
+plugin_starting: กำลังเริ่มต้นการทำงาน...
+plugin_disabling: กำลังปิดการทำงาน...
+plugin_disabled: ปิดใช้งานแล้ว
+plugin_language: ภาษา
+
+updater_cant_connect: ไม่สามารถเชื่อมต่อเซิฟ์เวอร์ได้
+updater_latest_version: นี่เป็นเวอร์ชั่นล่าสุด
+updater_update_line0: ตรวจพบเวอร์ชั่นใหม่ คุณสามารถดาวน์โหลดได้ที่นี่
+updater_update_line1: https://www.spigotmc.org/resources/wolfsk-2.93426/
+updater_update_line2: กำลังใช้งานเวอร์ชั่น
+updater_update_line3: เวอร์ชั่นล่าสุด
+updater_prerealese_build_line1: ตรวจสอบพบเวอร์ชั่นเบต้า
+updater_prerealese_build_line2: เปิดใช้งานฟังก์ชั่นเบต้าทั้งหมด
+updater_error: มีบางอย่างผิดพลาด!
+
+registering_elements: กำลังติดตั้งส่วนเสริมทั้งหมด...
+collections_registred_bossbar: ส่วนเสริม Bossbar ได้ทำการลงทะเบียนแล้ว
+collections_registred_actionbar:  ส่วนเสริม Actionbar ได้ทำการลงทะเบียนแล้ว
+collections_registred_title: Title and subtitile elements registred.
+collections_registred_loader: ส่วนเสริม Loader ได้ทำการลงทะเบียนแล้ว
+collections_registred_hologram: ส่วนเสริม Hologram ได้ทำการลงทะเบียนแล้ว
+collections_registred_yaml: ส่วนเสริม YAML ได้ทำการลงทะเบียนแล้ว
+objects_registred_inventory: ส่วนเสริม Inventory ได้ทำการลงทะเบียนแล้ว
+all_registred_correctly: ส่วนเสริมทั้งหมดได้ทำการโหลดอย่างถูกต้อง
+
+error: ข้อผิดพลาด
+
+file_cant_create: ไม่สามารถสร้างไฟล์ได้

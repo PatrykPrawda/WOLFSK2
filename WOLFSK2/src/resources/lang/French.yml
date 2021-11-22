@@ -21,6 +21,7 @@ updater_error: Quelque chose s'est mal passé !
 registering_elements: Enregistrement d'éléments complémentaires...
 collections_registred_bossbar: Éléments des barres de bosses enregistrés.
 collections_registred_actionbar: Éléments des barre d'actions enregistrés.
+collections_registred_title: Title and subtitile elements registred.
 collections_registred_loader: Éléments des chargeurs enregistrés.
 collections_registred_hologram: Éléments des hologrammes enregistrés.
 collections_registred_yaml: Éléments des fichiers YAML enregistrés.

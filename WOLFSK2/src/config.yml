@@ -1,4 +1,3 @@
-# English # Polish # French #
+# English # Polish # French # Thai
 language: English
-# HOLOGRAMS #
-max-holograms: 20
+# See WolfAPI/config.yml for more configs

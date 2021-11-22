@@ -4,10 +4,11 @@ import ch.njol.skript.lang.Effect;
 import ch.njol.skript.lang.Expression;
 import ch.njol.skript.lang.SkriptParser;
 import ch.njol.util.Kleenean;
-import pl.ajonx.wolfsk2.effects.BossHealthBar;
 
 import org.bukkit.entity.Player;
 import org.bukkit.event.Event;
+
+import pl.oneguardstudio.wolfapi.display.Display;
 
 public class EffectRemove extends Effect {
 
@@ -18,7 +19,7 @@ public class EffectRemove extends Effect {
         if (player == null) {
             return;
         }
-        BossHealthBar.removeBossBar(player);
+        Display.RemoveBossBar(player);
     }
 
     @SuppressWarnings("unchecked")

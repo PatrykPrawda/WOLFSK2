@@ -46,7 +46,7 @@ public class WolfSk2Update extends JavaPlugin {
     	} else {
     		try {
 	    		if(Integer.parseInt(usedVersion) < Integer.parseInt(latestVersion)) {
-	            	WolfSk2Log.sendLog("&8*-*-*-*-*-*-*-*-* &7WOLF&9&lSK2 &8*-*-*-*-*-*-*-*-*");
+	            	WolfSk2Log.sendLog("&8-----------------[ &7Wolf&9&lSK2 &8]-----------------");
 	            	WolfSk2Log.sendLog("&f");
 	    			WolfSk2Log.sendLog("&f" + WolfSk2.language.getString("updater_update_line0"));
 	    			WolfSk2Log.sendLog("&e&l" + WolfSk2.language.getString("updater_update_line1"));
@@ -56,24 +56,24 @@ public class WolfSk2Update extends JavaPlugin {
 	    			WolfSk2Log.sendLog("&f              " + WolfSk2.language.getString("updater_update_line3"));
 	    			WolfSk2Log.sendLog("&f               &9&l" + latest);
 	    			WolfSk2Log.sendLog("&f");
-	    			WolfSk2Log.sendLog("&8*-*-*-*-*-*-*-*-* &7WOLF&9&lSK2 &8*-*-*-*-*-*-*-*-*");
+	    			WolfSk2Log.sendLog("&8---------------------------------------------");
 	    		} else {
 	    			WolfSk2.beta = true;
-	            	WolfSk2Log.sendLog("&8*-*-*-*-*-*-*-*-* &7WOLF&9&lSK2 &8*-*-*-*-*-*-*-*-*");
+	            	WolfSk2Log.sendLog("&8-----------------[ &7Wolf&9&lSK2 &8]-----------------");
 	            	WolfSk2Log.sendLog("&f");
 	    			WolfSk2Log.sendLog("&f" + WolfSk2.language.getString("updater_prerealese_build_line1"));
 	    			WolfSk2Log.sendLog("&9&l" + WolfSk2.language.getString("updater_prerealese_build_line2"));
 	    			WolfSk2Log.sendLog("&f");
-	    			WolfSk2Log.sendLog("&8*-*-*-*-*-*-*-*-* &7WOLF&9&lSK2 &8*-*-*-*-*-*-*-*-*");
+	    			WolfSk2Log.sendLog("&8---------------------------------------------");
 	    		}
     		}
     		catch(Exception e) {
-            	WolfSk2Log.sendLog("&8*-*-*-*-*-*-*-*-* &7WOLF&9&lSK2 &8*-*-*-*-*-*-*-*-*");
+            	WolfSk2Log.sendLog("&8-----------------[ &7Wolf&9&lSK2 &8]-----------------");
             	WolfSk2Log.sendLog("&f");
     			WolfSk2Log.sendLog("&c&l" + WolfSk2.language.getString("updater_error"));
     			WolfSk2Log.sendLog("&4" + WolfSk2.language.getString("error") + " - " + e.getMessage());
     			WolfSk2Log.sendLog("&f");
-    			WolfSk2Log.sendLog("&8*-*-*-*-*-*-*-*-* &7WOLF&9&lSK2 &8*-*-*-*-*-*-*-*-*");
+    			WolfSk2Log.sendLog("&8---------------------------------------------");
     		}
     	}
     }

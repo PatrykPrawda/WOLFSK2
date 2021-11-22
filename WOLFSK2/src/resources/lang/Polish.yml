@@ -21,6 +21,7 @@ updater_error: Coś poszło nie tak!
 registering_elements: Rejestrowanie elementów dodatku...
 collections_registred_bossbar: Zarejestrowano elementy boss barów.
 collections_registred_actionbar: Zarejestrowano elementy action barów.
+collections_registred_title: Zarejestrowano elementy tytułów i podtytułów.
 collections_registred_loader: Zarejestrowano elementy loadera.
 collections_registred_hologram: Zarejestrowano elementy hologramów.
 collections_registred_yaml: Zarejestrowano elementy plików YAML.

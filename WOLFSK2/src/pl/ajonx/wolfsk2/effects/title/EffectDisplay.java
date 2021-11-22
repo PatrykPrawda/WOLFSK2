@@ -1,4 +1,4 @@
-package pl.ajonx.wolfsk2.effects.actionbar;
+package pl.ajonx.wolfsk2.effects.title;
 
 import ch.njol.skript.lang.Effect;
 import ch.njol.skript.lang.Expression;
@@ -13,22 +13,27 @@ import pl.oneguardstudio.wolfapi.display.Display;
 public class EffectDisplay extends Effect {
 
     private Expression<Player> player;
-    private Expression<String> text;
+    private Expression<String> title;
+    private Expression<String> subtitle;
 
     protected void execute(Event event) {
 
-        final Player player = this.player.getSingle(event);
-        String text = this.text.getSingle(event);
-        if (player == null || text == null)
+        if(this.player == null || this.title == null)
             return;
         
-        Display.DisplayActionBar(player, text);
+        final Player player = this.player.getSingle(event);
+        
+        if(this.subtitle != null)
+        	Display.DisplayTitleAndSubTitle(player, this.title.getSingle(event), this.subtitle.getSingle(event), 0, 0, 0);
+        else
+        	Display.DisplayTitleAndSubTitle(player, this.title.getSingle(event), null, 0, 0, 0);
     }
 
     @SuppressWarnings("unchecked")
 	public boolean init(Expression<?>[] expressions, int i, Kleenean kleenean, SkriptParser.ParseResult parseResult) {
         this.player = (Expression<Player>) expressions[0];
-        this.text = (Expression<String>) expressions[1];
+        this.title = (Expression<String>) expressions[1];
+        this.subtitle = (Expression<String>) expressions[2];
         return true;
     }
 

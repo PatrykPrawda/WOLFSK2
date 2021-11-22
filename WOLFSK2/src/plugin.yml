@@ -1,6 +1,6 @@
 name: WolfSK2
 description: Addon for Skript
-version: 2.14.0
+version: 2.15.0
 website: https://fmp.xaa.pl/ftp_server/EVOX_Interactive/WolfSk2/
 main: pl.ajonx.wolfsk2.WolfSk2
 depend: [Skript, WolfAPI]

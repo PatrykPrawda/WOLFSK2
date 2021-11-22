@@ -1,6 +1,6 @@
-# 19.11.2021 by Patryk Prawda (AJONX)
+# 22.11.2021 by Patryk Prawda (AJONX)
 lang_name: English
-lang_version: 1.3
+lang_version: 1.4
 lang_author: Patryk Prawda (AJONX)
 
 plugin_starting: Starting...
@@ -21,6 +21,7 @@ updater_error: Something went wrong!
 registering_elements: Registering addon elements...
 collections_registred_bossbar: Bossbar elements regstred.
 collections_registred_actionbar: Actionbar elements regstred.
+collections_registred_title: Title and subtitile elements registred.
 collections_registred_loader: Loader elements registred.
 collections_registred_hologram: Hologram elements registred.
 collections_registred_yaml: YAML files elements registred.
