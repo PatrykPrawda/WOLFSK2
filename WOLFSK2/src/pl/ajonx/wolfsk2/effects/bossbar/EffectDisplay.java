@@ -52,12 +52,12 @@ public class EffectDisplay extends Effect {
 		if(color.equalsIgnoreCase("PINK"))
 			barColor = BarColor.PINK;
         
-        Display.DisplayBossBar(player, color, Math.round(percent), barColor);
+        Display.displayBossBar(player, color, Math.round(percent), barColor);
         if(pt.intValue() > 1) {
             Bukkit.getScheduler().runTaskLater(WolfSk2.plugin, new Runnable() {
                 @Override
                 public void run() {
-                	Display.RemoveBossBar(player);
+                	Display.removeBossBar(player);
                 }
             }, pt.intValue() * 20);
         }

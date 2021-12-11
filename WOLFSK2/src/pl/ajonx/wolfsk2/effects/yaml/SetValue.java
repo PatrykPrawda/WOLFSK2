@@ -17,7 +17,7 @@ public class SetValue extends Effect {
     
     protected void execute(Event event) {
     	if(this.name.getSingle(event) != null && this.value.getSingle(event) != null && this.file.getSingle(event) != null)
-    		Yaml.SetYamlValue(this.name.getSingle(event), this.value.getSingle(event), this.file.getSingle(event));
+    		Yaml.setYamlValue(this.name.getSingle(event), this.value.getSingle(event), this.file.getSingle(event));
     }
 	
     @SuppressWarnings("unchecked")

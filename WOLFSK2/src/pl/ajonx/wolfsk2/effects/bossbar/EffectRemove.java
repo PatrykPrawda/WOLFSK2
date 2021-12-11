@@ -19,7 +19,7 @@ public class EffectRemove extends Effect {
         if (player == null) {
             return;
         }
-        Display.RemoveBossBar(player);
+        Display.removeBossBar(player);
     }
 
     @SuppressWarnings("unchecked")

@@ -24,9 +24,9 @@ public class EffectDisplay extends Effect {
         final Player player = this.player.getSingle(event);
         
         if(this.subtitle != null)
-        	Display.DisplayTitleAndSubTitle(player, this.title.getSingle(event), this.subtitle.getSingle(event), 0, 0, 0);
+        	Display.displayTitleAndSubTitle(player, this.title.getSingle(event), this.subtitle.getSingle(event), 0, 0, 0);
         else
-        	Display.DisplayTitleAndSubTitle(player, this.title.getSingle(event), null, 0, 0, 0);
+        	Display.displayTitleAndSubTitle(player, this.title.getSingle(event), null, 0, 0, 0);
     }
 
     @SuppressWarnings("unchecked")

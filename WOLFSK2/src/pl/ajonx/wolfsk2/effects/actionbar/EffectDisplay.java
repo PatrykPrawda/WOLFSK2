@@ -22,7 +22,7 @@ public class EffectDisplay extends Effect {
         if (player == null || text == null)
             return;
         
-        Display.DisplayActionBar(player, text);
+        Display.displayActionBar(player, text);
     }
 
     @SuppressWarnings("unchecked")

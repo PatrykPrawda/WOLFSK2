@@ -18,7 +18,7 @@ public class GetStringValue extends SimpleExpression<String> {
 
     protected String[] get(Event event) {
     	if(this.name.getSingle(event) != null && this.file.getSingle(event) != null)
-    		return new String[]{ Yaml.GetYamlStringValue(this.name.getSingle(event), this.file.getSingle(event)) };
+    		return new String[]{ Yaml.getYamlStringValue(this.name.getSingle(event), this.file.getSingle(event)) };
     	else
     		return new String[] { "null" };
     }

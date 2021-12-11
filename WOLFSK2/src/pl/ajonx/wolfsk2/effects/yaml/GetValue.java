@@ -16,7 +16,7 @@ public class GetValue extends Effect {
     
     protected void execute(Event event) {
     	if(this.name.getSingle(event) != null && this.file.getSingle(event) != null)
-    		Yaml.RemoveYamlValue(this.name.getSingle(event), this.file.getSingle(event));
+    		Yaml.removeYamlValue(this.name.getSingle(event), this.file.getSingle(event));
     }
 	
     @SuppressWarnings("unchecked")

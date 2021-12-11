@@ -15,7 +15,7 @@ public class Delete extends Effect {
     
     protected void execute(Event event) {
     	if(this.file.getSingle(event) != null)
-    		Yaml.DeleteYamlFile(this.file.getSingle(event));
+    		Yaml.deleteYamlFile(this.file.getSingle(event));
     }
 	
     @SuppressWarnings("unchecked")

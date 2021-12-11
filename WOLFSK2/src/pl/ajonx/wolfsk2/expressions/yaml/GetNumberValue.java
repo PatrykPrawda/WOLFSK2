@@ -16,7 +16,7 @@ public class GetNumberValue extends SimpleExpression<Number> {
 
     protected Number[] get(Event event) {
     	if(this.name.getSingle(event) != null && this.file.getSingle(event) != null)
-    		return new Number[]{ Yaml.GetYamlIntValue(this.name.getSingle(event), this.file.getSingle(event)) };
+    		return new Number[]{ Yaml.getYamlIntValue(this.name.getSingle(event), this.file.getSingle(event)) };
     	else
     		return new Number[] { null };
     }

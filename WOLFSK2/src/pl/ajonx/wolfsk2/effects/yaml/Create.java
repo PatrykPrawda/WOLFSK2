@@ -15,7 +15,7 @@ public class Create extends Effect {
     
     protected void execute(Event event) {
     	if(this.file.getSingle(event) != null)
-    		Yaml.CreateYamlFile(this.file.getSingle(event));
+    		Yaml.createYamlFile(this.file.getSingle(event));
     }
 	
     @SuppressWarnings("unchecked")
